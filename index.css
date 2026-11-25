@@ -1,0 +1,1267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+#pharmEasyContainer {
+    width: 100%;
+    /* height: 70px; */
+    /* border: 1px solid rgb(163, 201, 227); */
+    background-color: white;
+    /* border-bottom: rgb(163, 201, 227); */
+    position: sticky;
+    top: 0px;
+
+    #navbar {
+        width: 100%;
+        /* height: 80px; */
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 150px;
+
+        /* height: 50px; */
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+
+    .delivery {
+        width: 800px;
+        height: 60px;
+        padding: 10px;
+        line-height: 20px;
+        #exp {
+            font-size: 13px;
+            opacity: 70%;
+        }
+
+        p {
+            color: black;
+        }
+    }
+
+    .icons {
+        width: 400px;
+        /* height: 70px; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .profileIcon {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+        .cartIcon {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+        #offerIcon {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+    }
+}
+
+
+
+
+
+
+#nav {
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid rgb(163, 201, 227);
+    border-bottom: 1px solid rgb(163, 201, 227);
+    background-color: white;
+    position: sticky;
+    top: 60px;
+}
+
+#medicine {
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+
+    #m1 {
+        font-size: 16px;
+    }
+}
+
+#healthcare {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+
+    #m1 {
+        font-size: 16px;
+    }
+
+}
+
+#lab {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+
+    #m1 {
+        font-size: 16px;
+    }
+}
+
+#plus {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+
+    #m1 {
+        font-size: 16px;
+    }
+}
+
+#health {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+
+    #m1 {
+        font-size: 16px;
+    }
+}
+
+#superfastContainer {
+    width: 100%;
+    height: 100vh;
+    background: #044247;
+
+
+    #fast {
+        width: 100%;
+        height: 100px;
+        /* border: 1px solid white; */
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        gap: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        #get {
+            font-size: 26px;
+            color: yellow;
+        }
+
+        /* #super {
+            font-size: 26px;
+            color: rgb(103, 202, 238);
+        } */
+
+    }
+
+    #pharm {
+        border: 1px solid white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 170px;
+        height: 30px;
+        align-items: center;
+        color: white;
+        margin-left: 650px;
+
+        .on {
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 7px;
+        }
+
+
+    }
+
+    .deliverCon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        #deliveryContainer {
+            width: 100%;
+            max-width: 1200px;
+            /* border: 1px solid white; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            font-family: Arial, Helvetica, sans-serif;
+            gap: 20px;
+
+
+            .cash {
+                width: 330px;
+                height: 60px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 1px solid rgb(255, 255, 255);
+                /* background: linear-gradient(141.04deg, #e2bb72 4.52%, rgba(193, 148, 63, 0) 8.97%), linear-gradient(127.72deg, rgba(193, 148, 63, 0) 88.53%, #e2bb72 99.4%); */
+                border-radius: 12px;
+                color: white;
+                padding: 10px;
+                line-height: 20px;
+
+                #casher {
+                    font-size: 16px
+                }
+
+                #ord {
+                    font-size: 12px;
+                }
+
+                .imgs {
+                    width: 60px;
+                    height: 60px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        padding: 4px;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .express {
+                width: 330px;
+                height: 60px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 12px;
+                color: white;
+                padding: 10px;
+                line-height: 20px;
+
+                #casher {
+                    font-size: 16px
+                }
+
+                #ord {
+                    font-size: 12px;
+                }
+
+                .imgs {
+                    width: 60px;
+                    height: 60px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        padding: 4px;
+                        object-fit: cover;
+                    }
+                }
+
+            }
+
+            .returns {
+                width: 330px;
+                height: 60px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 12px;
+                color: white;
+                padding: 10px;
+                line-height: 20px;
+
+                #casher {
+                    font-size: 16px
+                }
+
+                #ord {
+                    font-size: 12px;
+                }
+
+                .imgs {
+                    width: 60px;
+                    height: 60px;
+
+                    /* background: linear-gradient(to right, #e0e408, #dad714b8); */
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        padding: 4px;
+                        object-fit: cover;
+                    }
+                }
+
+            }
+        }
+    }
+
+    #max {
+        margin-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    #searchContainer {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    #deliver {
+        border: 2px solid black;
+        border-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border-width: 1px;
+        width: 900px;
+        height: 400px;
+        padding: 15px;
+        background: #ffffff;
+
+        .sh {
+            display: flex;
+            justify-content: center;
+
+            .searchbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 10px;
+                border-color: rgb(87, 159, 170);
+                border-width: 1px;
+                width: 95%;
+                height: 50px;
+                padding: 15px;
+            }
+
+            #med {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: start;
+                color: #4a8a8f;
+            }
+
+            #see {
+                font-family: Arial, Helvetica, sans-serif;
+                background: #4a8a8f;
+                width: 80px;
+                font-size: 16px;
+                height: 40px;
+                /* margin: 5px; */
+                padding: 7px;
+                padding-left: 15px;
+                padding-bottom: 30px;
+                border-radius: 10px;
+                color: white;
+            }
+        }
+
+        #via {
+            margin-top: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 10px;
+            text-align: center;
+            color: black;
+        }
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+        .whatsapp {
+            border: 1px solid rgb(87, 159, 170);
+            /* opacity: 50%; */
+            border-radius: 10px;
+            width: 45%;
+            height: 40px;
+            padding: 10px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 5px;
+
+
+
+            p {
+                color: black;
+                font-size: 15px;
+                /* opacity: 50%; */
+            }
+
+        }
+
+        .call {
+            border: 1px solid rgb(87, 159, 170);
+            border-radius: 10px;
+            width: 45%;
+            height: 40px;
+            padding: 10px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 5px;
+
+            p {
+                color: black;
+                font-size: 15px;
+            }
+
+        }
+    }
+
+    .offer {
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        flex-wrap: wrap;
+        gap: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        .app {
+            border: 1px solid rgb(87, 159, 170);
+            border-radius: 12px;
+            width: 380px;
+            height: 150px;
+            padding: 10px;
+            line-height: 25px;
+
+            #off {
+                font-size: 10px;
+                color: rgb(66, 145, 181);
+            }
+
+            #Set {
+                font-size: 65px;
+                color: blue;
+            }
+
+            .health {
+                font-size: 12px;
+                opacity: 50%;
+            }
+
+            .appimg {
+                margin-top: 20px;
+                width: 130px;
+                height: 30px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5px;
+                    object-fit: cover;
+                }
+            }
+
+
+        }
+
+        .website {
+            border: 1px solid rgb(87, 159, 170);
+            border-radius: 12px;
+            width: 380px;
+            height: 150px;
+            padding: 10px;
+            line-height: 25px;
+
+            #off {
+                font-size: 10px;
+                color: rgb(142, 17, 82);
+            }
+
+            .health {
+                font-size: 12px;
+                opacity: 50%;
+            }
+
+            .appimg {
+                margin-top: 20px;
+                width: 130px;
+                height: 30px;
+
+                img {
+                    width: 100%;
+
+                    border-radius: 5px;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+
+
+
+
+#check {
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: black;
+}
+
+#checkup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+    .DoctorCheckup {
+        width: 100%;
+        max-width: 650px;
+        height: 150px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+    }
+}
+
+/* customer */
+.customer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    .cus {
+        width: 100%;
+        max-width: 65%;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+
+        .imgg {
+            width: 70px;
+            height: 70px;
+
+            /* border: 1px solid black; */
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        #custom {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            opacity: 60%;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+
+
+#review {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    .reviewSub {
+        width: 100%;
+        max-width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: 'Times New Roman', Times, serif;
+        gap: 15px;
+        /* border: 1px solid black; */
+
+        #amit {
+            /* border: 1px solid rgb(0, 0, 0); */
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+            width: 200px;
+            height: auto;
+            padding: 10px;
+
+        }
+
+        #deep {
+            /* border: 1px solid rgb(0, 0, 0); */
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            width: 200px;
+            height: auto;
+            padding: 10px;
+
+        }
+
+        #alina {
+            /* border: 1px solid rgb(0, 0, 0); */
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            width: 200px;
+            height: 260px;
+            padding: 10px;
+
+        }
+
+        #rajesh {
+            /* border: 1px solid rgb(0, 0, 0); */
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            width: 200px;
+            height: auto;
+            padding: 10px;
+
+        }
+    }
+}
+
+/* Scroller */
+
+#scroller {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    #scroll {
+        width: 100%;
+        max-width: 70%;
+    }
+}
+
+
+
+#aboutPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    #aboutContainer {
+        width: 90%;
+        /* height: 800px; */
+        border: 1px solid rgb(9, 86, 122);
+        border-radius: 10px;
+        border-color: aquamarine;
+        background-color: #b1e1e4;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        line-height: 30px;
+    }
+
+    .company {
+        width: 200px;
+        height: 600px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+
+    }
+
+    .category {
+        width: 300px;
+        height: 600px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+
+    }
+
+    .help {
+        width: 200px;
+        height: 600px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .follow {
+        width: 200px;
+        height: 600px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:1300px) {
+    #questions {
+        .qsn1 {
+            height: auto;
+        }
+    }
+
+    #questions {
+        .qsn2 {
+            height: auto;
+        }
+    }
+
+    #questions {
+        .qsn3 {
+            height: auto;
+        }
+    }
+
+    #questions {
+        .qsn4 {
+            height: auto;
+        }
+    }
+
+    #questions {
+        .qsn5 {
+            height: auto;
+        }
+    }
+
+    #questions {
+        .qsn6 {
+            height: auto;
+        }
+    }
+
+    #questions {
+        .qsn7 {
+            height: auto;
+        }
+    }
+
+    #questions {
+        .qsn8 {
+            height: auto;
+        }
+    }
+
+    #questions {
+        .qsn9 {
+            height: auto;
+        }
+    }
+
+    #questions {
+        .qsn10 {
+            height: auto;
+        }
+    }
+
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    #navbar {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    .delivery {
+        width: 100%;
+        text-align: center;
+    }
+
+    .icons {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    #nav {
+        flex-wrap: wrap;
+        position: static;
+    }
+
+    #medicine,
+    #healthcare,
+    #lab,
+    #plus,
+    #health {
+        width: 48%;
+        text-align: center;
+    }
+
+    #superfastContainer {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #fast {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #get,
+    #super {
+        font-size: 22px;
+    }
+
+    #pharm {
+        margin: 20px auto;
+    }
+
+    #deliveryContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cash,
+    .express,
+    .returns {
+        width: 95%;
+    }
+
+    #deliver {
+        width: 95%;
+        height: auto;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .whatsapp,
+    .call {
+        width: 100%;
+    }
+
+    .offer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app,
+    .website {
+        width: 100%;
+    }
+
+    .reviewSub {
+        max-width: 95%;
+    }
+
+    #amit,
+    #deep,
+    #alina,
+    #rajesh {
+        width: 100%;
+    }
+
+    .qsn1,
+    .qsn2,
+    .qsn3,
+    .qsn4,
+    .qsn5,
+    .qsn6,
+    .qsn7,
+    .qsn8,
+    .qsn9,
+    .qsn10 {
+        width: 95%;
+        height: auto;
+    }
+
+    #aboutContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .company,
+    .category,
+    .help,
+    .follow {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    #pharmEasyContainer {
+        .delivery {
+            width: 100%;
+            height: 60px;
+            padding: 10px;
+            line-height: 20px;
+        }
+    }
+
+    #pharmEasyContainer {
+        .icons {
+            width: 100%;
+            /* height: 70px; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+
+    #superfastContainer {
+        #deliver {
+            border: 2px solid black;
+            border-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            border-width: 1px;
+            width: 100%;
+            height: auto;
+            padding: 15px;
+            margin: 20px;
+            background: #ffffff;
+        }
+    }
+
+    #checkup {
+        & .DoctorCheckup {
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 25px;
+                object-fit: cover;
+                padding: 10px;
+            }
+        }
+    }
+
+    #aboutPage {
+        .company {
+            width: 200px;
+            height: auto;
+            padding: 20px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    }
+
+    #aboutPage {
+        #aboutContainer {
+            width: 100%;
+        }
+    }
+
+    #aboutPage {
+        .follow {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    #aboutPage {
+        .category {
+
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    }
+
+    #aboutPage {
+        .help {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    }
+}
+
+@media (max-width:480px) {
+
+    .logo {
+        width: 120px;
+    }
+
+    #get,
+    #super {
+        font-size: 18px;
+    }
+
+    .searchbar {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        text-align: center;
+    }
+
+    .searchbar h3 {
+        width: 100%;
+    }
+
+    #medicine,
+    #healthcare,
+    #lab,
+    #plus,
+    #health {
+        width: 100%;
+    }
+
+    .cash,
+    .express,
+    .returns {
+        padding: 15px;
+    }
+
+    #deliver {
+        padding: 10px;
+    }
+
+    .app,
+    .website {
+        padding: 15px;
+    }
+
+    #superfastContainer {
+        #deliver {
+            border: 2px solid black;
+            border-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            border-width: 1px;
+            width: 100%;
+            height: auto;
+            padding: 15px;
+            margin: 20px;
+            background: #ffffff;
+        }
+    }
+
+    #superfastContainer {
+        & .offer {
+            .website {
+                border: 1px solid rgb(87, 159, 170);
+                border-radius: 12px;
+                width: 100%;
+                height: auto;
+                padding: 10px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    #superfastContainer {
+        & .offer {
+            .app {
+                border: 1px solid rgb(87, 159, 170);
+                border-radius: 12px;
+                width: 100%;
+                height: auto;
+                padding: 10px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .qsn1,
+    .qsn2,
+    .qsn3,
+    .qsn4,
+    .qsn5,
+    .qsn6,
+    .qsn7,
+    .qsn8,
+    .qsn9,
+    .qsn10 {
+        width: 95%;
+        height: auto;
+    }
+
+    #superfastContainer {
+        & #deliver {
+            & .sh {
+                .searchbar {
+
+                    height: auto;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+
+    #superfastContainer {
+        & #fast {
+            #get {
+                font-size: 20px;
+                color: yellow;
+                /* margin-top: 15px; */
+            }
+        }
+    }
+
+    #superfastContainer {
+        #max {
+            margin-top: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 10px;
+            text-align: center;
+            color: white;
+        }
+    }
+
+    #superfastContainer {
+        & .deliverCon {
+            & #deliveryContainer {
+                .cash {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+
+    #superfastContainer {
+        & .deliverCon {
+            & #deliveryContainer {
+                .express {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+
+    #superfastContainer {
+        & .deliverCon {
+            & #deliveryContainer {
+                .returns {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+
+    #aboutPage {
+        .category {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            padding: 20px;
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+    }
+
+    #aboutPage {
+        .company {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            padding: 20px;
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+    }
+
+    #superfastContainer {
+        & .contact {
+            .whatsapp {
+                border: 1px solid rgb(87, 159, 170);
+                /* opacity: 50%; */
+                border-radius: 10px;
+                width: 77%;
+                height: 40px;
+                padding: 10px;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+    }
+
+    #superfastContainer {
+        & .contact {
+            .call {
+                border: 1px solid rgb(87, 159, 170);
+                border-radius: 10px;
+                width: 77%;
+                height: 40px;
+                padding: 10px;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+    }
+
+
+    #pharmEasyContainer {
+        display: none;
+    }
+}
+
+/* #nav{
+    display: none;
+} */

@@ -1,0 +1,1337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#navContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(143, 178, 205);
+    /* background: #523c3c; */
+
+    #nav {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 1350px;
+        /* height: 80px; */
+        /* background: #e4d7d7; */
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .logo {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 400px;
+            color: rgb(0, 0, 0);
+
+            .pharmLogo {
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            #exp {
+                font-size: 12px;
+                line-height: 15px;
+            }
+
+        }
+
+        .searchContainer {
+            width: 500px;
+            /* height: 45px; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            border: 1px solid rgb(152, 194, 209);
+            border-radius: 20px;
+            padding: 10px;
+            border-color: #116d86;
+
+            .searchButton {
+                border: 1px solid rgb(8, 75, 92);
+                border-radius: 10px;
+                border-color: rgb(5, 85, 85);
+                background: #116d86;
+                padding: 5px;
+                width: 70px;
+                text-align: center;
+                color: white;
+                /* height: 30px; */
+            }
+        }
+
+        .iconsContainer {
+            width: 400px;
+            /* height: 70px; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            .profile {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 10px;
+
+            }
+
+            .offer {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .cart {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+        }
+    }
+}
+
+#menuBar {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    border-bottom: 1px solid rgb(120, 171, 191);
+    height: 50px;
+}
+
+#pharmEasyadd {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    #images {
+        width: 1200px;
+        height: 350px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        /* background: #000; */
+
+
+        .medicine {
+            width: 700px;
+            height: 350px;
+
+            /* border: 1px solid black; */
+            /* margin-left: 100px; */
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                object-fit: cover;
+
+            }
+
+        }
+
+        .medi {
+            width: 350px;
+            height: 350px;
+
+            /* border: 1px solid black; */
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                object-fit: cover;
+
+            }
+
+        }
+    }
+
+}
+
+#container {
+    width: 100%;
+    /* height: 130px; */
+    margin-top: 40px;
+    /* background: #e1a1a1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    #treatment {
+        width: 1250px;
+        /* height: 120px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .haves {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            /* padding: 15px; */
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+        }
+
+        .vitamin {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+        }
+
+        .wellness {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+
+        }
+
+
+
+    }
+
+    #care {
+        width: 1250px;
+        /* height: 120px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .personal {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            /* padding: 15px; */
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+        }
+
+        .Homeopathy {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+        }
+
+        .summer {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+
+        }
+
+
+
+    }
+
+    #food {
+        width: 1250px;
+        /* height: 120px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .healthy {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+        }
+
+        .diabetes {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+        }
+
+        .ayurvedic {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+
+        }
+
+
+
+    }
+
+    #babyCare {
+        width: 1300px;
+        /* height: 120px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .baby {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+        }
+
+        .elderly {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+        }
+
+        .sports {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+
+        }
+
+
+
+    }
+
+    #health {
+        width: 1300px;
+        /* height: 120px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .healthcare {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+        }
+
+        .skinCare {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+        }
+
+        .concern {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            /* padding: 15px; */
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+
+        }
+
+
+
+    }
+
+    #explore {
+        width: 1250px;
+        /* height: 120px; */
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .exp {
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            border: 1px solid rgb(130, 174, 215);
+            border-radius: 10px;
+
+            #off {
+                color: #116d86;
+            }
+
+        }
+    }
+
+
+}
+
+#para {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+
+    #pp {
+        line-height: 50px;
+    }
+
+    p {
+        width: 1050px;
+        line-height: 24px;
+
+    }
+
+}
+
+#test {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .test1 {
+        width: 1300px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        h4 {
+            width: 300px;
+
+        }
+
+        p {
+            line-height: 25px;
+        }
+
+    }
+
+    .test2 {
+        width: 1300px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        h4 {
+            width: 500px;
+        }
+
+        p {
+            line-height: 25px;
+        }
+
+    }
+
+    .test3 {
+        width: 1300px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        h4 {
+            width: 300px;
+        }
+
+        p {
+            line-height: 25px;
+        }
+
+    }
+
+    .test4 {
+        width: 1300px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        h4 {
+            width: 320px;
+        }
+
+        p {
+            line-height: 25px;
+        }
+
+    }
+
+    .test5 {
+        width: 1300px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        h4 {
+            width: 480px;
+        }
+
+        p {
+            line-height: 25px;
+        }
+
+    }
+}
+
+#aboutPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+
+    #aboutContainer {
+        width: 90%;
+        /* height: 800px; */
+        border: 1px solid rgb(9, 86, 122);
+        border-radius: 10px;
+        border-color: aquamarine;
+        background-color: #b1e1e4;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        line-height: 30px;
+    }
+
+    .company {
+        width: 200px;
+        height: 600px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+
+    }
+
+    .category {
+        width: 300px;
+        height: 600px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+
+    }
+
+    .help {
+        width: 200px;
+        height: 600px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .follow {
+        width: 200px;
+        height: 600px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    #container {
+        #explore {
+            width: 100%;
+            max-width: 1250px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    #navContainer #nav {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    #navContainer #nav .logo {
+        width: 65%;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #navContainer #nav .pharmLogo img {
+        width: 150px;
+        height: auto;
+    }
+
+    #navContainer #nav .pin {
+        text-align: center;
+    }
+
+    #navContainer #nav .searchContainer {
+        width: 95%;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    #navContainer #nav .searchContainer .searchIcon {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+
+    #navContainer #nav .iconsContainer {
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #menuBar {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        padding: 15px 0;
+    }
+
+    #menuBar p {
+        width: 100%;
+        text-align: center;
+    }
+
+    #pharmEasyadd {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #pharmEasyadd div {
+        width: 100%;
+    }
+
+    #pharmEasyadd {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    #pharmEasyadd #images {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #pharmEasyadd #images .medicine {
+        width: 95%;
+        height: auto;
+
+    }
+
+    #pharmEasyadd #images .medicine img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    #pharmEasyadd #images .medi {
+        width: 95%;
+        height: auto;
+
+
+    }
+
+    #pharmEasyadd #images .medi img {
+        width: 100%;
+        height: auto;
+
+    }
+
+
+    #para {
+        width: 100%;
+        padding: 0 15px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    #para #pp {
+        line-height: 25px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    #para p {
+        width: 100%;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: justify;
+    }
+
+    #test {
+        width: 100%;
+        padding: 0 15px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    #test .test1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    #test .test1 h3 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #test .test1 p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    #test .test2 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    #test .test2 h3 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #test .test2 p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    #test .test3 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    #test .test3 h3 {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    #test .test3 p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    #test .test4 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    #test .test4 h3 {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    #test .test4 p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    #test .test5 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    #test .test5 h3 {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    #test .test5 p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+
+}
+
+
+@media (max-width:700px) {
+    #aboutPage {
+        .company {
+            width: 200px;
+            height: auto;
+            padding: 20px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+    }
+
+    #aboutPage {
+        .category {
+            width: 200px;
+            height: auto;
+            padding: 20px;
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+    }
+
+    #aboutPage {
+        .follow {
+            width: 200px;
+            height: auto;
+            padding: 20px;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+    }
+
+    #container {
+        #explore {
+            /* width: 100%; */
+            max-width: 1250px;
+            /* height: 120px; */
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+    }
+
+}
+
+
+
+
+
+@media (max-width:500px) {
+    #test .test1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    #test {
+        & .test1 {
+            h4 {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    }
+    #test {
+        & .test2 {
+            h4 {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    }
+    #test {
+        & .test3 {
+            h4 {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    }
+    #test {
+        & .test4 {
+            h4 {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    }
+    #test {
+        & .test5 {
+            h4 {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    }
+
+
+    #test {
+        width: 100%;
+    }
+
+    #container {
+        width: 100%;
+        margin-top: 20px;
+        padding: 15px;
+
+    }
+
+    #container #treatment {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+    }
+
+    #container #treatment .haves,
+    #container #treatment .vitamin,
+    #container #treatment .wellness {
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    #container #treatment .haves img,
+    #container #treatment .skinCavitaminre img,
+    #container #treatment .wellness img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #container #care {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+    }
+
+    #container #care .personal,
+    #container #care .Homeopathy,
+    #container #care .summer {
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    #container #care .personal img,
+    #container #care .Homeopathy img,
+    #container #care .summer img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #container #food {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+    }
+
+    #container #food .healthy,
+    #container #food .diabetes,
+    #container #food .ayurvedic {
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    #container #food .healthy img,
+    #container #food .diabetes img,
+    #container #food .ayurvedic img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #container #babyCare {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+    }
+
+    #container #babyCare .baby,
+    #container #babyCare .elderly,
+    #container #babyCare .sports {
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    #container #babyCare .baby img,
+    #container #babyCare .elderly img,
+    #container #babyCare .sports img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #container #health {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+    }
+
+    #container #health .healthcare,
+    #container #health .skinCare,
+    #container #health .concern {
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    #container #health .healthcare img,
+    #container #health .skinCare img,
+    #container #health .concern img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #container #explore {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+    }
+
+    #container .exp {
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    #container .exp img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #container {
+        #explore {
+            /* width: 100%; */
+            max-width: 1250px;
+            /* height: 120px; */
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+    }
+
+
+}
+
+
+
+@media (max-width:500px) {
+    body {
+        width: 300px;
+
+    }
+
+
+}
